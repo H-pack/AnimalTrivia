@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5704493B1B7127BA005C70B6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704493A1B7127BA005C70B6 /* SecondViewController.swift */; };
+		5704493D1B717094005C70B6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704493C1B717094005C70B6 /* ThirdViewController.swift */; };
 		57BF11161B6A8DB2007DD54A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BF11151B6A8DB2007DD54A /* AppDelegate.swift */; };
 		57BF11181B6A8DB2007DD54A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BF11171B6A8DB2007DD54A /* ViewController.swift */; };
 		57BF111B1B6A8DB2007DD54A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BF11191B6A8DB2007DD54A /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5704493A1B7127BA005C70B6 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5704493C1B717094005C70B6 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		57BF11101B6A8DB2007DD54A /* AnimalTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BF11141B6A8DB2007DD54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57BF11151B6A8DB2007DD54A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 			children = (
 				57BF11151B6A8DB2007DD54A /* AppDelegate.swift */,
 				57BF11171B6A8DB2007DD54A /* ViewController.swift */,
+				5704493A1B7127BA005C70B6 /* SecondViewController.swift */,
+				5704493C1B717094005C70B6 /* ThirdViewController.swift */,
 				57BF11191B6A8DB2007DD54A /* Main.storyboard */,
 				57BF111C1B6A8DB2007DD54A /* Images.xcassets */,
 				57BF111E1B6A8DB2007DD54A /* LaunchScreen.xib */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5704493B1B7127BA005C70B6 /* SecondViewController.swift in Sources */,
 				57BF11181B6A8DB2007DD54A /* ViewController.swift in Sources */,
+				5704493D1B717094005C70B6 /* ThirdViewController.swift in Sources */,
 				57BF11161B6A8DB2007DD54A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +419,7 @@
 				57BF11311B6A8DB2007DD54A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57BF11321B6A8DB2007DD54A /* Build configuration list for PBXNativeTarget "AnimalTriviaTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				57BF11341B6A8DB2007DD54A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
