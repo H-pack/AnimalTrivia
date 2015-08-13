@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4664F312-388E-4B27-98B2-995B2A852FDA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AnimalTrivia</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FAC3A77FEFC0463D41CF8C866DB10F06F2FF3672</key>
+		<string>https://github.com/H-pack/AnimalTrivia.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AnimalTrivia.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FAC3A77FEFC0463D41CF8C866DB10F06F2FF3672</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/H-pack/AnimalTrivia.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FAC3A77FEFC0463D41CF8C866DB10F06F2FF3672</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FAC3A77FEFC0463D41CF8C866DB10F06F2FF3672</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AnimalTrivia</string>
+		</dict>
+	</array>
+</dict>
+</plist>
