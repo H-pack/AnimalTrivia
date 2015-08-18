@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>4664F312-388E-4B27-98B2-995B2A852FDA</string>
 	<key>IDESourceControlProjectName</key>
-	<string>AnimalTrivia</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>FAC3A77FEFC0463D41CF8C866DB10F06F2FF3672</key>
 		<string>https://github.com/H-pack/AnimalTrivia.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AnimalTrivia.xcodeproj</string>
+	<string>AnimalTrivia.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>FAC3A77FEFC0463D41CF8C866DB10F06F2FF3672</key>
