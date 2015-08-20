@@ -15,6 +15,38 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1"
             endingLineNumber = "1">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnimalTrivia.ViewController.init (AnimalTrivia.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; AnimalTrivia.ViewController"
+                  moduleName = "AnimalTrivia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hasaani/Desktop/iOS/bitfountain/AnimalTrivia/AnimalTrivia/ViewController.swift"
+                  timestampString = "461796865.204759"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnimalTrivia.ViewController.init (AnimalTrivia.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Swift.Optional&lt;AnimalTrivia.ViewController&gt;"
+                  moduleName = "AnimalTrivia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hasaani/Desktop/iOS/bitfountain/AnimalTrivia/AnimalTrivia/ViewController.swift"
+                  timestampString = "461796865.205103"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
