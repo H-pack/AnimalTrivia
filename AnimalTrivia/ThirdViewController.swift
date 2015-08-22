@@ -35,7 +35,7 @@ class ThirdViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        startOverButton.layer.cornerRadius = 7.0
+        
     }
 
     override func didReceiveMemoryWarning() {

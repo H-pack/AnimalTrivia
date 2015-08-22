@@ -15,8 +15,12 @@ class FourthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       leastWeaselImageView = UIImageView(frame:CGRectMake(0, 0, 100, 100))
+        
+        leastWeaselImageView.layer.borderWidth = 1
+        leastWeaselImageView.layer.masksToBounds = false
+        leastWeaselImageView.layer.borderColor = UIColor.blackColor().CGColor
+        leastWeaselImageView.layer.cornerRadius = leastWeaselImageView.frame.height/1
+        leastWeaselImageView.clipsToBounds = true
     }
 
     override func didReceiveMemoryWarning() {
