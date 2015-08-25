@@ -10,13 +10,16 @@ import UIKit
 
 class FifthViewController: UIViewController {
     
-    
+    @IBOutlet weak var kiwiImageView: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
-        // Do any additional setup after loading the view.
+        
+        kiwiImageView.layer.borderWidth = 1
+        kiwiImageView.layer.masksToBounds = false
+        kiwiImageView.layer.borderColor = UIColor.blackColor().CGColor
+        kiwiImageView.layer.cornerRadius = kiwiImageView.frame.height/1
+        kiwiImageView.clipsToBounds = true
     }
 
     override func didReceiveMemoryWarning() {

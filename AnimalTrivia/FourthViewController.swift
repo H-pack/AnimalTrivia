@@ -12,6 +12,22 @@ class FourthViewController: UIViewController {
     
     @IBOutlet weak var leastWeaselImageView: UIImageView!
     
+    
+    
+    @IBOutlet weak var aLabel: UILabel!
+    
+    @IBOutlet weak var aButton: UIButton!
+    
+    
+    @IBOutlet weak var bLabel: UILabel!
+    
+    @IBOutlet weak var bButton: UIButton!
+    
+    
+    @IBOutlet weak var cLabel: UILabel!
+    
+    @IBOutlet weak var cButton: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
