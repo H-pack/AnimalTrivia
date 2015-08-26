@@ -12,8 +12,6 @@ class FourthViewController: UIViewController {
     
     @IBOutlet weak var leastWeaselImageView: UIImageView!
     
-    
-    
     @IBOutlet weak var aLabel: UILabel!
     
     @IBOutlet weak var aButton: UIButton!
@@ -27,6 +25,10 @@ class FourthViewController: UIViewController {
     @IBOutlet weak var cLabel: UILabel!
     
     @IBOutlet weak var cButton: UIButton!
+    
+    let myRedColor = UIColor(red: 0.98, green: 0.39, blue: 0.4, alpha: 1.0)
+    let incorrectAnswerImage = UIImage(named: "incorrectAnswer")
+    let correctAnswerImage = UIImage(named: "correctAnswer")
     
 
     override func viewDidLoad() {
@@ -44,4 +46,29 @@ class FourthViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func aButtonPressed(sender: UIButton) {
+        aButton.setImage(correctAnswerImage, forState: UIControlState.Normal)
+        disableButtons()
+        aLabel.textColor = UIColor.greenColor()
+    }
+    
+    @IBAction func bButtonPressed(sender: UIButton) {
+        bButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
+        disableButtons()
+        bLabel.textColor = myRedColor
+    }
+    
+    @IBAction func cButtonPressed(sender: UIButton) {
+        cButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
+        disableButtons()
+        cLabel.textColor = myRedColor
+    }
+    
+    
+    func disableButtons() {
+        aButton.enabled = false
+        bButton.enabled = false
+        cButton.enabled = false
+    }
+
 }
