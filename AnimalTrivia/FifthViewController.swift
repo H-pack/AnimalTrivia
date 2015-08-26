@@ -12,6 +12,7 @@ class FifthViewController: UIViewController {
     
     @IBOutlet weak var kiwiImageView: UIImageView!
     
+
     @IBOutlet weak var aButton: UIButton!
     
     @IBOutlet weak var aLabel: UILabel!
@@ -37,7 +38,7 @@ class FifthViewController: UIViewController {
         kiwiImageView.layer.borderWidth = 1
         kiwiImageView.layer.masksToBounds = false
         kiwiImageView.layer.borderColor = UIColor.blackColor().CGColor
-        kiwiImageView.layer.cornerRadius = kiwiImageView.frame.height/1
+        kiwiImageView.layer.cornerRadius = kiwiImageView.frame.height/2
         kiwiImageView.clipsToBounds = true
     }
 

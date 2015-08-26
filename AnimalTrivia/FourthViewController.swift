@@ -37,7 +37,7 @@ class FourthViewController: UIViewController {
         leastWeaselImageView.layer.borderWidth = 1
         leastWeaselImageView.layer.masksToBounds = false
         leastWeaselImageView.layer.borderColor = UIColor.blackColor().CGColor
-        leastWeaselImageView.layer.cornerRadius = leastWeaselImageView.frame.height/1
+        leastWeaselImageView.layer.cornerRadius = leastWeaselImageView.frame.height/2
         leastWeaselImageView.clipsToBounds = true
     }
 
