@@ -26,6 +26,9 @@ class SixthViewController: UIViewController {
     
     @IBOutlet weak var cLabel: UILabel!
     
+    
+    @IBOutlet weak var honeyBadgerImageView: UIImageView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,7 +56,7 @@ class SixthViewController: UIViewController {
     @IBAction func cButtonPressed(sender: UIButton) {
         cButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
-        cLabel.textColor = myRedColors
+        cLabel.textColor = myRedColor
     }
     
     func disableButtons() {
