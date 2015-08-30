@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5704493B1B7127BA005C70B6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704493A1B7127BA005C70B6 /* SecondViewController.swift */; };
 		5704493D1B717094005C70B6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704493C1B717094005C70B6 /* ThirdViewController.swift */; };
+		570770701B93BBF8003A5E46 /* NinthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5707706F1B93BBF8003A5E46 /* NinthViewController.swift */; };
 		5753EA831B9147B5008759D4 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753EA821B9147B5008759D4 /* SixthViewController.swift */; };
 		5755D6951B939191000C18B3 /* EighthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755D6941B939191000C18B3 /* EighthViewController.swift */; };
 		579F416D1B937C42008A6678 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579F416C1B937C42008A6678 /* SeventhViewController.swift */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		5704493A1B7127BA005C70B6 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5704493C1B717094005C70B6 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		5707706F1B93BBF8003A5E46 /* NinthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinthViewController.swift; sourceTree = "<group>"; };
 		5753EA821B9147B5008759D4 /* SixthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SixthViewController.swift; path = ../SixthViewController.swift; sourceTree = "<group>"; };
 		5755D6941B939191000C18B3 /* EighthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EighthViewController.swift; sourceTree = "<group>"; };
 		579F416C1B937C42008A6678 /* SeventhViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				5753EA821B9147B5008759D4 /* SixthViewController.swift */,
 				579F416C1B937C42008A6678 /* SeventhViewController.swift */,
 				5755D6941B939191000C18B3 /* EighthViewController.swift */,
+				5707706F1B93BBF8003A5E46 /* NinthViewController.swift */,
 				57BF11191B6A8DB2007DD54A /* Main.storyboard */,
 				57BF111C1B6A8DB2007DD54A /* Images.xcassets */,
 				57BF111E1B6A8DB2007DD54A /* LaunchScreen.xib */,
@@ -242,6 +245,7 @@
 				5704493D1B717094005C70B6 /* ThirdViewController.swift in Sources */,
 				57BF11161B6A8DB2007DD54A /* AppDelegate.swift in Sources */,
 				57DE66E21B867361001BD760 /* FourthViewController.swift in Sources */,
+				570770701B93BBF8003A5E46 /* NinthViewController.swift in Sources */,
 				5755D6951B939191000C18B3 /* EighthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
