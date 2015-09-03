@@ -10,6 +10,8 @@ import UIKit
 
 class NinthViewController: UIViewController {
     
+    @IBOutlet weak var flyingBisonImageView: UIImageView!
+    
     let myRedColor = UIColor(red: 0.98, green: 0.39, blue: 0.4, alpha: 1.0)
     let correctAnswerImage = UIImage(named: "correctAnswer")
     let incorrectAnswerImage = UIImage(named: "incorrectAnswer")
@@ -31,7 +33,11 @@ class NinthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        flyingBisonImageView.layer.borderWidth = 1
+        flyingBisonImageView.layer.masksToBounds = false
+        flyingBisonImageView.layer.borderColor = UIColor.blackColor().CGColor
+        flyingBisonImageView.layer.cornerRadius = flyingBisonImageView.frame.height/2
+        flyingBisonImageView.clipsToBounds = true
     }
 
     override func didReceiveMemoryWarning() {

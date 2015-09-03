@@ -10,6 +10,8 @@ import UIKit
 
 class EighthViewController: UIViewController {
     
+    @IBOutlet weak var puffinImageView: UIImageView!
+    
     @IBOutlet weak var aButton: UIButton!
     
     @IBOutlet weak var bButton: UIButton!
@@ -31,7 +33,11 @@ class EighthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        puffinImageView.layer.borderWidth = 1
+        puffinImageView.layer.masksToBounds = false
+        puffinImageView.layer.borderColor = UIColor.blackColor().CGColor
+        puffinImageView.layer.cornerRadius = puffinImageView.frame.height/2
+        puffinImageView.clipsToBounds = true
     }
 
     override func didReceiveMemoryWarning() {

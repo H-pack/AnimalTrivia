@@ -13,6 +13,8 @@ class SixthViewController: UIViewController {
     let myRedColor = UIColor(red: 0.98, green: 0.39, blue: 0.4, alpha: 1.0)
     let correctAnswerImage = UIImage(named: "correctAnswer")
     let incorrectAnswerImage = UIImage(named: "incorrectAnswer")
+    
+    @IBOutlet weak var honeyBadgerImageView: UIImageView!
 
     @IBOutlet weak var aButton: UIButton!
     
@@ -25,15 +27,15 @@ class SixthViewController: UIViewController {
     @IBOutlet weak var bLabel: UILabel!
     
     @IBOutlet weak var cLabel: UILabel!
-    
-    
-    @IBOutlet weak var honeyBadgerImageView: UIImageView!
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        honeyBadgerImageView.layer.borderWidth = 1
+        honeyBadgerImageView.layer.masksToBounds = false
+        honeyBadgerImageView.layer.borderColor = UIColor.blackColor().CGColor
+        honeyBadgerImageView.layer.cornerRadius = honeyBadgerImageView.frame.height/2
+        honeyBadgerImageView.clipsToBounds = true
     }
 
     override func didReceiveMemoryWarning() {

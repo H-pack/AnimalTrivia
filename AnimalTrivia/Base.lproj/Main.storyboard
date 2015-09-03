@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="AvenirNext.ttc">
             <string>AvenirNext-Regular</string>
             <string>AvenirNext-Regular</string>
-            <string>AvenirNext-Regular</string>
             <string>AvenirNext-Bold</string>
+            <string>AvenirNext-Regular</string>
             <string>AvenirNext-Regular</string>
             <string>AvenirNext-Regular</string>
             <string>AvenirNext-Regular</string>
@@ -586,7 +585,7 @@
                         <outlet property="bLabel" destination="pz6-Vu-Ory" id="bM9-5Y-d7A"/>
                         <outlet property="cButton" destination="shl-hN-fNV" id="Gg5-KJ-6pM"/>
                         <outlet property="cLabel" destination="etY-4O-Qlc" id="TTJ-OK-ppL"/>
-                        <outlet property="honeyBadgerImageView" destination="jyh-P6-3b5" id="zsq-X9-Tlm"/>
+                        <outlet property="honeyBadgerImageView" destination="jyh-P6-3b5" id="Ozx-DM-HYn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4aI-OQ-w61" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -770,6 +769,7 @@
                         <outlet property="bLabel" destination="QwT-aO-asJ" id="iF1-GU-buR"/>
                         <outlet property="cButton" destination="Yfx-NK-qxK" id="dkL-QQ-TYA"/>
                         <outlet property="cLabel" destination="5Gp-b7-Cj5" id="bgj-26-53n"/>
+                        <outlet property="puffinImageView" destination="UNa-lt-DhT" id="xCr-WE-z3C"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vaD-hh-Z46" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -866,6 +866,7 @@
                         <outlet property="bLabel" destination="quy-Sq-xKx" id="Vmd-Zk-OUH"/>
                         <outlet property="cButton" destination="DOZ-9Y-doM" id="KY7-Xn-VlQ"/>
                         <outlet property="cLabel" destination="cIb-t5-wDr" id="C4e-ui-AUz"/>
+                        <outlet property="flyingBisonImageView" destination="KqS-dW-eLk" id="ypM-vK-Poc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zCq-HE-2fh" userLabel="First Responder" sceneMemberID="firstResponder"/>
