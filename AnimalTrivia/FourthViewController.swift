@@ -56,12 +56,16 @@ class FourthViewController: UIViewController {
         bButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         bLabel.textColor = myRedColor
+        aLabel.textColor = UIColor.greenColor()
+ 
     }
     
     @IBAction func cButtonPressed(sender: UIButton) {
         cButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         cLabel.textColor = myRedColor
+        aLabel.textColor = UIColor.greenColor()
+
     }
     
     

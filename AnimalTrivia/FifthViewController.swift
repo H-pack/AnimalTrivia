@@ -51,12 +51,14 @@ class FifthViewController: UIViewController {
         aButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         aLabel.textColor = myRedColor
+        cLabel.textColor = UIColor.greenColor()
     }
     
     @IBAction func bButtonPressed(sender: UIButton) {
         bButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         bLabel.textColor = myRedColor
+        cLabel.textColor = UIColor.greenColor()
     }
     
     @IBAction func cButtonPressed(sender: UIButton) {

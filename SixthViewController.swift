@@ -47,6 +47,7 @@ class SixthViewController: UIViewController {
         aButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         aLabel.textColor = myRedColor
+        bLabel.textColor = UIColor.greenColor()
     }
     
     @IBAction func bButtonPressed(sender: UIButton) {
@@ -59,6 +60,7 @@ class SixthViewController: UIViewController {
         cButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         cLabel.textColor = myRedColor
+        bLabel.textColor = UIColor.greenColor()
     }
     
     func disableButtons() {

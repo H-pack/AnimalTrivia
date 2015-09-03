@@ -36,17 +36,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func aButtonPressed(sender: UIButton) {
+    
+     @IBAction  func aButtonPressed(sender: UIButton) {
         aButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         aLabel.textColor = myRedColor
+        cLabel.textColor = UIColor.greenColor()
     }
-    
-    
+        
     @IBAction func bButtonPressed(sender: UIButton) {
         bButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         aLabel.textColor = myRedColor
+        cLabel.textColor = UIColor.greenColor()
     }
     
     @IBAction func cButtonPressed(sender: UIButton) {
@@ -54,7 +56,7 @@ class ViewController: UIViewController {
         disableButtons()
         cLabel.textColor = UIColor.greenColor()
     }
-    
+        
     func disableButtons() {
         aButton.enabled = false
         bButton.enabled = false

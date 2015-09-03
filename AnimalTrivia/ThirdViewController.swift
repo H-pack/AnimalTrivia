@@ -45,6 +45,7 @@ class ThirdViewController: UIViewController {
         aButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         aLabel.textColor = myRedColor
+        cLabel.textColor = UIColor.greenColor()
     }
     
     
@@ -53,6 +54,7 @@ class ThirdViewController: UIViewController {
         bButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         bLabel.textColor = myRedColor
+        cLabel.textColor = UIColor.greenColor()
     }
     
     

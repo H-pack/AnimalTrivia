@@ -51,6 +51,7 @@ class SeventhViewController: UIViewController {
         aButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         aLabel.textColor = myRedColor
+        bLabel.textColor = UIColor.greenColor()
     }
     
     
@@ -65,6 +66,7 @@ class SeventhViewController: UIViewController {
         cButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         cLabel.textColor = myRedColor
+        bLabel.textColor = UIColor.greenColor()
     }
     
     func disableButtons() {

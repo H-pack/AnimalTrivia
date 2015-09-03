@@ -47,6 +47,7 @@ class SecondViewController: UIViewController {
         aButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         aLabel.textColor = myRedColor
+        bLabel.textColor = UIColor.greenColor()
     }
     
     @IBAction func bButtonPressed(sender: UIButton) {
@@ -60,6 +61,7 @@ class SecondViewController: UIViewController {
         cButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         cLabel.textColor = myRedColor
+        bLabel.textColor = UIColor.greenColor()
     }
     
     func disableButtons() {

@@ -50,6 +50,7 @@ class NinthViewController: UIViewController {
         aButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         aLabel.textColor = myRedColor
+        cLabel.textColor = UIColor.greenColor()
     }
     
     
@@ -57,6 +58,7 @@ class NinthViewController: UIViewController {
         bButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         bLabel.textColor = myRedColor
+        cLabel.textColor = UIColor.greenColor()
     }
     
     
