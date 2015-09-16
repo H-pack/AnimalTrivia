@@ -12,19 +12,14 @@ class FifthViewController: UIViewController {
     
     @IBOutlet weak var kiwiImageView: UIImageView!
     
-
+    // MARK: - Buttons
     @IBOutlet weak var aButton: UIButton!
-    
-    @IBOutlet weak var aLabel: UILabel!
-    
-    
-    @IBOutlet weak var bButton: UIButton!
-    
-    @IBOutlet weak var bLabel: UILabel!
-    
-    
     @IBOutlet weak var cButton: UIButton!
-    
+    @IBOutlet weak var bButton: UIButton!
+
+    // MARK: - Labels
+    @IBOutlet weak var aLabel: UILabel!
+    @IBOutlet weak var bLabel: UILabel!
     @IBOutlet weak var cLabel: UILabel!
     
     let myRedColor = UIColor(red: 0.98, green: 0.39, blue: 0.4, alpha: 1.0)
@@ -35,9 +30,6 @@ class FifthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        kiwiImageView.layer.borderWidth = 1
-        kiwiImageView.layer.masksToBounds = false
-        kiwiImageView.layer.borderColor = UIColor.blackColor().CGColor
         kiwiImageView.layer.cornerRadius = kiwiImageView.frame.height/2
         kiwiImageView.clipsToBounds = true
     }
@@ -47,6 +39,7 @@ class FifthViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK: - Actions
     @IBAction func aButtonPressed(sender: UIButton) {
         aButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
